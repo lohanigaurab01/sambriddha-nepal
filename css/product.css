@@ -1,0 +1,112 @@
+.breadcrumb {
+  background-image: url('/img/Sunny-solar-panel-installer-1.jpeg');
+  width: 100vw;
+  background-position: center center;
+  background-size: cover;
+  height: 30vh;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.breadcrumb .breadcrumb-background-overlay {
+  height: 30vh;
+  width: 100vw;
+  background-color: #000000;
+  position: absolute;
+  opacity: 0.5;
+
+}
+
+.breadcrumb .breadcrumb-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+}
+
+.breadcrumb .breadcrumb-heading h2 {
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+
+.breadcrumb .breadcrumb-heading .path {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.solar-street-light {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.solar-img img {
+  height: 448px;
+}
+
+.solar-light-all{
+  padding-top: 50px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 41px;
+}
+.solar-street-light .solar-cards {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.solar-street-light .solar-content h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.solar-street-light .solar-content p {
+  font-size: 1.1rem;
+}
+
+.solar-street-light .solar-content ul {
+  margin-left: 35px;
+}
+
+.solar-street-light .solar-content ul li {
+  list-style: disc;
+  font-size: 1.1rem;
+}
+
+.solar-street-light .solar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+@media  screen and (max-width:600px) {
+  .solar-img img {
+    height: 281px;
+}
+.solar-street-light .solar-cards {
+gap: 10px;
+}
+.solar-street-light .solar-content h2 {
+  font-size: 2rem;
+}
+.solar-street-light .solar-content p {
+  font-size: 1rem;
+  line-height: 1.55;
+}
+.solar-street-light .solar-content ul li {
+  font-size: 1rem;
+}
+}

@@ -1,0 +1,209 @@
+ .breadcrumb {
+    background-image: url('/img/business-people-discussing-green-energy-project.jpg');
+    width: 100vw;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ .breadcrumb .breadcrumb-background-overlay {
+    height: 30vh;
+    width: 100vw;
+    background-color: #000000;
+    position: absolute;
+    opacity: 0.80;
+
+}
+
+ .breadcrumb .breadcrumb-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+ .breadcrumb .breadcrumb-heading h2{
+    font-size: 3rem;
+  font-weight: bold;
+
+}
+.breadcrumb .breadcrumb-heading .path{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-us{
+  margin-bottom: 60px;
+}
+
+.about-all-info{
+  display: flex;
+  justify-content: center;
+   padding: 0px 100px 0 100px;
+   gap: 40px;
+   align-items: center;
+}
+
+.about-all{
+  display: flex;
+  justify-content: center;
+}
+.about-img img{
+  border-radius: 10px 10px 10px 10px;
+height: 100%;
+}
+.about-img{
+  width: 400px;
+  height: 450px;
+display: flex;
+justify-content: center;
+}
+
+.about-msg{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 20px;
+}
+.about-msg h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.about-msg p{
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.about-msg ol{
+  font-size: 1.2rem;
+  list-style: decimal;
+  padding-left: 27px;
+}
+
+.mission-and-vision{
+  display: flex;
+  justify-content: center;
+  padding: 0px 100px 0px 100px;
+  gap: 75px;
+  flex-wrap: wrap;
+}
+
+.mission-and-vision-all{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.mission-img i{
+  font-size: 2rem;
+  color: #83506f;
+}
+.mission-content{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.vision-content{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.mission-content h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.vision-content h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.mission-all{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 30%;
+}
+.vision-all{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 30%;
+}
+
+.vision-img i{
+ color: #83506f;
+  font-size: 2rem;
+}
+
+@media screen and (max-width:1500px) {
+  .about-msg {
+ width: 100%;
+  }
+  .mission-all {
+    width: 45%;
+  }
+  .vision-all{
+    width: 45%;
+  }
+  .about-msg h2 {
+    font-size: 2.1rem;
+  }
+  .about-msg p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .about-all-info{
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width:950px){
+  .mission-all {
+    width: 100%;
+  }
+  .vision-all {
+    width: 100%;
+  }
+}
+@media screen and (max-width:700px) {
+  .about-msg h2 {
+    font-size: 2rem;
+  }
+  .about-msg p{
+font-size: 1rem;
+  }
+  .about-msg ol {
+    font-size: 1rem;
+  }
+  .about-all-info {
+   padding: 0px 50px 0px 50px;
+  }
+  .mission-and-vision{
+    padding: 0px 50px 0px 50px;
+  }
+  .about-img{
+    height: 350px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .about-msg h2 {
+    font-size: 1.7rem;
+  }
+  .about-msg p{
+    font-size: 0.9rem;
+  }
+  .about-msg ol {
+    font-size: 0.9rem;
+  }
+  
+}

@@ -1,0 +1,166 @@
+.breadcrumb {
+  background-image: url('/img/Contact.jpg');
+  width: 100vw;
+  background-position: center center;
+  background-size: cover;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+
+}
+
+.breadcrumb .breadcrumb-background-overlay {
+  height: 30vh;
+  width: 100vw;
+  background-color: #000000;
+  position: absolute;
+  opacity: 0.5;
+
+}
+
+.breadcrumb .breadcrumb-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+}
+
+.breadcrumb .breadcrumb-heading h2 {
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+
+.breadcrumb .breadcrumb-heading .path {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.contact-us .contact .second-part .content-contact h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contact-us .contact .second-part .company-whole {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+}
+
+.contact-us .contact .second-part .company-whole .icons i {
+  font-size: 2rem;
+}
+
+.contact-us .contact .second-part .company-whole .company-icon {
+  border: 2px solid #83506f;
+  height: 50px;
+  width: 50px;
+  background-color: #83506f;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us .contact .second-part .content-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 30px;
+
+}
+
+.contact-us .contact .second-part .company-whole .company-into {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+
+.company-p {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.company-p h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.contact-us .one-row {
+  display: flex;
+  gap: 40px;
+  border-bottom: 2px solid #e1e1e1;
+  padding-bottom: 30px;
+}
+
+.one-row-hrs {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.working-hour h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.max-w-sm {
+  max-width: 25rem !important;
+}
+
+@media only screen and (min-width: 1000px) {
+  .contact-us .first-part {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact-us .first-part {
+    width: 100%;
+    /* padding: 15px; */
+  }
+
+  .contact-us .contact {
+    padding: 15px;
+  }
+
+  .contact-us .one-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .one-row-hrs {
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+
+  .max-w-sm {
+    max-width: 20rem !important;
+  }
+
+  .second-part {
+    padding: 14px;
+  }
+
+ 
+}
