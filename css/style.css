@@ -31,14 +31,15 @@
 .main {
     background-image: url('/img/background.jpg');
     background-size: cover;
-    height: 85vh;
+    height: 100%;
     background-blend-mode: darken;
-    background-attachment: fixed;
-
+    overflow: hidden;
+    position: relative;
+    display: flex;
 }
 
 .background-overlay {
-    height: 85vh;
+    height: 100%;
     width: 100vw;
     background-color: #000000;
     position: absolute;
@@ -51,6 +52,9 @@
     position: relative;
     z-index: 1;
     padding-left: 347px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-right: 238px;
 }
 
@@ -314,7 +318,7 @@
 
 @media only screen and (max-width: 1000px) {
     .main .content {
-        padding: 200px;
+        padding: 1px;
         padding-left: 83px;
         padding-right: 83px;
         width: 100%;
@@ -325,8 +329,8 @@
     }
 
     .main {
-        height: 68vh;
-    }
+        height: 42vh;
+      }
 
     .background-overlay {
         height: 68vh;
@@ -346,11 +350,16 @@
 
 @media only screen and (max-width: 800px) {
     .main .content {
-        padding: 180px;
         padding-left: 56px;
         padding-right: 38px;
         width: 100%;
     }
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
     .work-review .work-flow .arrow2 {
         visibility: hidden;
@@ -376,6 +385,10 @@
         padding-right: 1%;
         color: #767d8e;
     }
+   .mobile-view{
+    display: flex;
+    flex-direction: column;
+   }
 }
 
 
@@ -383,16 +396,20 @@
 
 @media only screen and (max-width: 600px) {
     .main .content {
-        padding: 100px;
         padding-left: 30px;
         padding-right: 21px;
         width: 100%;
+
     }
+    .max-w-sm {
+        max-width: 28rem !important;
+      }
 
     .main .content .content-child h1 {
         font-size: 1.8rem;
 
     }
+    
 
     .product .cards {
 
@@ -437,6 +454,7 @@
 @media only screen and (max-width: 400px) {
     .work-review {
         padding: 30px;
+        gap: 1px;
       }
     .text-2xl {
         font-size: 0.8rem;

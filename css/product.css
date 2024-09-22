@@ -56,11 +56,12 @@
   height: 448px;
 }
 
-.solar-light-all{
+.solar-light-all {
   padding-top: 50px;
   border-bottom: 1px solid #000;
   padding-bottom: 41px;
 }
+
 .solar-street-light .solar-cards {
   display: flex;
   justify-content: center;
@@ -92,21 +93,33 @@
   gap: 15px;
   padding: 20px;
 }
-@media  screen and (max-width:600px) {
+
+@media screen and (max-width:900px) {
+  .gaurab {
+    padding: 50px;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width:600px) {
   .solar-img img {
     height: 281px;
-}
-.solar-street-light .solar-cards {
-gap: 10px;
-}
-.solar-street-light .solar-content h2 {
-  font-size: 2rem;
-}
-.solar-street-light .solar-content p {
-  font-size: 1rem;
-  line-height: 1.55;
-}
-.solar-street-light .solar-content ul li {
-  font-size: 1rem;
-}
+  }
+
+  .solar-street-light .solar-cards {
+    gap: 10px;
+  }
+
+  .solar-street-light .solar-content h2 {
+    font-size: 2rem;
+  }
+
+  .solar-street-light .solar-content p {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .solar-street-light .solar-content ul li {
+    font-size: 1rem;
+  }
 }

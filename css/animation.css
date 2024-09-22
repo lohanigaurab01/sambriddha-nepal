@@ -36,6 +36,7 @@
 .scroll-animate.left-to-right {
     opacity: 0;
     animation: slideInFromLeft 1s forwards;
+    overflow: hidden;
 }
 
 .scroll-animate.bottom-to-top {
