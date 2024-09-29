@@ -264,6 +264,9 @@
     padding: 0rem !important;
     height: 70px !important;
 }
+.h-8 {
+    height: 5rem !important;
+}
 @media only screen and (max-width: 1600px) {
     .main .content {
         width: 90%;
