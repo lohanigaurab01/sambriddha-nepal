@@ -336,11 +336,11 @@
     }
 
     .main {
-        height: 60vh;
+        height: 50vh;
       }
 
     .background-overlay {
-        height: 68vh;
+        height: 50vh;
     }
 
     .text-2xl {
@@ -365,9 +365,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+        height: 60vh;
+    
 }
 
-
+  .background-overlay {
+        height: 60vh;
+    }
     .work-review .work-flow .arrow2 {
         visibility: hidden;
     }
