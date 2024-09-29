@@ -399,7 +399,14 @@
 }
 
 
-
+@media only screen and (max-width: 768px) {
+    .md\:text-blue-700 {
+    color: white !important;
+}
+    .bg-blue-700 {
+    background-color: #83506f !important;
+}
+}
 
 @media only screen and (max-width: 600px) {
     .main .content {
