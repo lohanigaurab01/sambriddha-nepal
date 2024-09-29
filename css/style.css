@@ -352,6 +352,9 @@
         grid-template-columns: auto auto;
 
     }
+        .h-8 {
+    height: 4rem !important;
+}
 }
 
 
@@ -419,9 +422,7 @@
         width: 100%;
 
     }
-    .h-8 {
-    height: 4rem !important;
-}
+
     .max-w-sm {
         max-width: 28rem !important;
       }
